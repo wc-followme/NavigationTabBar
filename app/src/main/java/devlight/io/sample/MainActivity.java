@@ -18,15 +18,15 @@ public class MainActivity extends Activity implements View.OnClickListener {
 
     private void initUI() {
         final View btnHorizontalNtb = findViewById(R.id.btn_horizontal_ntb);
-        //btnHorizontalNtb.setOnClickListener(this);
+        btnHorizontalNtb.setOnClickListener(this);
         final View btnHorizontalCoordinatorNtb = findViewById(R.id.btn_horizontal_coordinator_ntb);
-        //btnHorizontalCoordinatorNtb.setOnClickListener(this);
+        btnHorizontalCoordinatorNtb.setOnClickListener(this);
         final View btnTopHorizontalNtb = findViewById(R.id.btn_horizontal_top_ntb);
-        //btnTopHorizontalNtb.setOnClickListener(this);
+        btnTopHorizontalNtb.setOnClickListener(this);
         final View btnVerticalNtb = findViewById(R.id.btn_vertical_ntb);
-        //btnVerticalNtb.setOnClickListener(this);
+        btnVerticalNtb.setOnClickListener(this);
         final View btnSamplesNtb = findViewById(R.id.btn_samples_ntb);
-        //btnSamplesNtb.setOnClickListener(this);
+        btnSamplesNtb.setOnClickListener(this);
     }
 
     @Override
@@ -44,7 +44,7 @@ public class MainActivity extends Activity implements View.OnClickListener {
 
                     @Override
                     public void onAnimationEnd(final View view) {
-                        switch (v.getId()) {
+                        /*switch (v.getId()) {
                             case R.id.btn_horizontal_ntb:
                                 startActivity(
                                         new Intent(MainActivity.this, HorizontalNtbActivity.class)
@@ -72,7 +72,7 @@ public class MainActivity extends Activity implements View.OnClickListener {
                                 break;
                             default:
                                 break;
-                        }
+                        }*/
                     }
 
                     @Override
