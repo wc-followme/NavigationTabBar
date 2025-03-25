@@ -13,7 +13,7 @@ public class MainActivity extends Activity implements View.OnClickListener {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        initUI();
+        //initUI();
     }
 
     private void initUI() {
@@ -46,29 +46,29 @@ public class MainActivity extends Activity implements View.OnClickListener {
                     public void onAnimationEnd(final View view) {
                         switch (v.getId()) {
                             case R.id.btn_horizontal_ntb:
-                                /*startActivity(
+                                startActivity(
                                         new Intent(MainActivity.this, HorizontalNtbActivity.class)
-                                );*/
+                                );
                                 break;
                             case R.id.btn_horizontal_top_ntb:
-                                /*startActivity(
+                                startActivity(
                                         new Intent(MainActivity.this, TopHorizontalNtbActivity.class)
-                                );*/
+                                );
                                 break;
                             case R.id.btn_horizontal_coordinator_ntb:
-                                /*startActivity(
+                                startActivity(
                                         new Intent(MainActivity.this, HorizontalCoordinatorNtbActivity.class)
-                                );*/
+                                );
                                 break;
                             case R.id.btn_vertical_ntb:
-                                /*startActivity(
+                                startActivity(
                                         new Intent(MainActivity.this, VerticalNtbActivity.class)
-                                );*/
+                                );
                                 break;
                             case R.id.btn_samples_ntb:
-                                /*startActivity(
+                                startActivity(
                                         new Intent(MainActivity.this, SamplesNtbActivity.class)
-                                );*/
+                                );
                                 break;
                             default:
                                 break;
