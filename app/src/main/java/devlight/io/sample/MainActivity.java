@@ -44,7 +44,7 @@ public class MainActivity extends Activity implements View.OnClickListener {
 
                     @Override
                     public void onAnimationEnd(final View view) {
-                        /*switch (v.getId()) {
+                        switch (v.getId()) {
                             case R.id.btn_horizontal_ntb:
                                 startActivity(
                                         new Intent(MainActivity.this, HorizontalNtbActivity.class)
@@ -72,7 +72,7 @@ public class MainActivity extends Activity implements View.OnClickListener {
                                 break;
                             default:
                                 break;
-                        }*/
+                        }
                     }
 
                     @Override
